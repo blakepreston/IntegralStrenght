@@ -1,0 +1,154 @@
+body {
+  background-color: rgb(201, 201, 201);
+  overflow-x: hidden;
+  font-family: aktiv-grotesk, sans-serif;
+  font-style: normal;
+
+  max-width: 2000px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+/********NavBar********************/
+#Navigation {
+  grid-area: Navigation;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+#navBar li {
+  display: inline;
+  margin-left: 6rem;
+}
+
+#navBar li img {
+  height: 2.5em;
+  margin-top: -0.5em;
+  margin-left: 5em;
+}
+
+#navBar a {
+  text-decoration: none;
+  color: black;
+}
+
+#Navigation img {
+  position: absolute;
+  height: 6em;
+  margin-left: 5em;
+  margin-top: 1em;
+}
+
+#navBar {
+  text-align: center;
+  margin-left: 5em;
+  width: 100%;
+  padding-top: 2.5em;
+  height: 2.5em;
+}
+
+/************ Pricing ********************/
+
+.pricingWrapper {
+  margin-top: 7em;
+  text-align: center;
+  padding-left: 25em;
+  padding-right: 25em;
+}
+
+#AthleticDevelopment {
+  background-color: white;
+  padding: 2em;
+  border-radius: 5px;
+}
+
+#inPerson {
+  background-color: white;
+  padding: 2em;
+  margin-top: 3em;
+  border-radius: 5px;
+}
+
+#remote {
+  background-color: white;
+  padding: 2em;
+  margin-top: 3em;
+  border-radius: 5px;
+}
+
+/************** Contact *******************/
+
+#contact {
+  grid-area: contact;
+  padding-top: 10em;
+  padding-bottom: 10em;
+  text-align: center;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#contact-social img {
+  height: 3em;
+}
+
+#contact-social a {
+  text-decoration: none;
+  margin: 1em;
+}
+
+#contact-social {
+  margin-left: 10em;
+  border-style: solid;
+  border-width: 2px;
+  padding: 3em;
+  border-radius: 5px;
+}
+
+#shareLogo {
+  height: 4em;
+  position: absolute;
+  margin-top: -2em;
+  margin-left: 4em;
+  background-color: white;
+  border-radius: 50%;
+}
+
+#contact-call {
+  margin-left: 10em;
+  border-style: solid;
+  border-width: 2px;
+  padding: 3em;
+  border-radius: 5px;
+}
+
+#contact-call img {
+  height: 4em;
+  position: absolute;
+  margin-top: -5em;
+  margin-left: -2em;
+  background-color: white;
+  border-radius: 50%;
+}
+
+#email {
+  border-style: solid;
+  border-width: 2px;
+  padding: 3em;
+  border-radius: 5px;
+}
+
+#email img {
+  height: 4em;
+  position: absolute;
+  margin-top: -5em;
+  margin-left: -2em;
+}

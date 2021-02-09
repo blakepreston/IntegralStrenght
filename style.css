@@ -1,17 +1,19 @@
 body {
-  background-color: grey;
-  margin: 0;
-  font-family: aktiv-grotesk, sans-serif;
+  background-color: rgb(201, 201, 201);
+  overflow-x: hidden;
+  /* font-family: aktiv-grotesk, sans-serif; */
+  font-family: Futura, sans-serif;
   font-style: normal;
-  font-weight: 200;
   max-width: 2000px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
 }
 
 html {
   scroll-behavior: smooth;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-weight: 900;
 }
 
 /********* Grid Setup *************/
@@ -39,6 +41,8 @@ html {
 /********NavBar********************/
 #Navigation {
   grid-area: Navigation;
+  text-transform: uppercase;
+  font-weight: 600;
 }
 
 #navBar li {
@@ -49,7 +53,7 @@ html {
 #navBar li img {
   height: 2.5em;
   margin-top: -0.5em;
-  margin-left: 10em;
+  margin-left: 5em;
 }
 
 #navBar a {
@@ -83,6 +87,7 @@ html {
   float: left;
   margin-left: 10em;
   margin-top: 5em;
+  border-radius: 5px;
 }
 
 #nscaLogo img {
@@ -110,6 +115,7 @@ br {
   width: 45em;
   float: right;
   margin-right: 3em;
+  border-radius: 5px;
 }
 
 /******** Products ****************/
@@ -124,7 +130,9 @@ br {
 #workout1 img {
   float: right;
   height: 40vh;
+  margin-top: 2em;
   margin-right: 5em;
+  border-radius: 5px;
 }
 
 #workout1 h1 {
@@ -147,6 +155,7 @@ br {
   margin-left: 10em;
   margin-top: 4em;
   padding-bottom: 2em;
+  border-radius: 5px;
 }
 
 #buttonPrice {
@@ -157,6 +166,7 @@ br {
   text-align: center;
   text-decoration: none;
   font-size: 16px;
+  border-radius: 5px;
 }
 
 /************** Product 2 *******************/
@@ -174,6 +184,7 @@ br {
   margin-right: 5em;
   margin-top: 2em;
   padding-bottom: 2em;
+  border-radius: 5px;
 }
 
 #workout2 {
@@ -183,7 +194,8 @@ br {
 #workout2 img {
   float: left;
   height: 40vh;
-  margin-left: 5em;
+  margin-left: 10em;
+  border-radius: 5px;
 }
 
 #workout2 h1 {
@@ -205,6 +217,7 @@ br {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+  border-radius: 5px;
 }
 
 /************** Product 3 *******************/
@@ -217,11 +230,12 @@ br {
   background-color: white;
   padding: 1em;
   text-align: center;
-  width: 40em;
+  width: 35em;
   float: left;
-  margin-left: 6em;
+  margin-left: 10em;
   margin-top: 4em;
   padding-bottom: 2em;
+  border-radius: 5px;
 }
 
 #workout3 {
@@ -231,7 +245,8 @@ br {
 #workout3 img {
   float: right;
   height: 40vh;
-  margin-right: 5em;
+  margin-right: 8em;
+  border-radius: 5px;
 }
 
 #workout3 h1 {
@@ -254,6 +269,7 @@ br {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+  border-radius: 5px;
 }
 
 /************** Product 4 *******************/
@@ -271,16 +287,18 @@ br {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+  border-radius: 5px;
 }
 
 #product4 p {
   background-color: white;
   padding: 1em;
   text-align: center;
-  width: 45em;
+  width: 35em;
   float: right;
-  margin-right: 5em;
+  margin-right: 8em;
   margin-top: 4em;
+  border-radius: 5px;
 }
 
 #workout4 {
@@ -290,7 +308,8 @@ br {
 #workout4 img {
   float: left;
   height: 40vh;
-  margin-left: 5em;
+  margin-left: 10em;
+  border-radius: 5px;
 }
 
 #workout4 h1 {
@@ -319,16 +338,18 @@ br {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+  border-radius: 5px;
 }
 
 #product5 p {
   background-color: white;
   padding: 1em;
   text-align: center;
-  width: 45em;
+  width: 35em;
   float: left;
-  margin-left: 5em;
+  margin-left: 10em;
   margin-top: 4em;
+  border-radius: 5px;
 }
 
 #workout5 {
@@ -338,7 +359,8 @@ br {
 #workout5 img {
   float: right;
   height: 40vh;
-  margin-right: 5em;
+  margin-right: 9em;
+  border-radius: 5px;
 }
 
 #workout5 h1 {
@@ -362,10 +384,11 @@ br {
   background-color: white;
   padding: 1em;
   text-align: center;
-  width: 45em;
+  width: 35em;
   float: right;
-  margin-right: 5em;
+  margin-right: 9em;
   margin-top: 4em;
+  border-radius: 5px;
 }
 
 #workout6 {
@@ -375,7 +398,8 @@ br {
 #workout6 img {
   float: left;
   height: 40vh;
-  margin-left: 5em;
+  margin-left: 10em;
+  border-radius: 5px;
 }
 
 #workout6 h1 {
@@ -398,6 +422,7 @@ br {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+  border-radius: 5px;
 }
 
 /************** Contact *******************/
@@ -427,6 +452,7 @@ br {
   border-style: solid;
   border-width: 2px;
   padding: 3em;
+  border-radius: 5px;
 }
 
 #shareLogo {
@@ -443,6 +469,7 @@ br {
   border-style: solid;
   border-width: 2px;
   padding: 3em;
+  border-radius: 5px;
 }
 
 #contact-call img {
@@ -458,6 +485,7 @@ br {
   border-style: solid;
   border-width: 2px;
   padding: 3em;
+  border-radius: 5px;
 }
 
 #email img {
@@ -465,4 +493,36 @@ br {
   position: absolute;
   margin-top: -5em;
   margin-left: -2em;
+}
+
+/********** Mobile SetUp **************/
+
+@media (max-width: 1400px) {
+  #Navigation {
+    width: 100%;
+  }
+
+  #aboutSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+  }
+
+  #nscaLogo img {
+    height: 3em;
+    margin-left: 2em;
+  }
+
+  #product1,
+  #product2,
+  #product3,
+  #product4,
+  #product5,
+  #product6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+  }
 }
