@@ -13,7 +13,7 @@ html {
 
 h1 {
   text-transform: uppercase;
-  font-weight: 900;
+  font-weight: 700;
 }
 
 /********* Grid Setup *************/
@@ -28,6 +28,7 @@ h1 {
   text-rendering: optimizeLegibility;
   grid-template-areas:
     "Navigation"
+    "heroImage"
     "aboutSection"
     "product1"
     "product2"
@@ -45,7 +46,9 @@ h1 {
 #Navigation {
   grid-area: Navigation;
   text-transform: uppercase;
-  font-weight: 600;
+  font-weight: 400;
+
+  background-color: black;
 }
 
 #navBar li {
@@ -61,12 +64,15 @@ h1 {
 
 #navBar a {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 #Navigation img {
   position: absolute;
-  height: 6em;
+  height: 3em;
+  background-color: white;
+  padding: 0.05em;
+  border-radius: 5px;
   margin-left: 5em;
   margin-top: 1em;
 }
@@ -83,13 +89,55 @@ h1 {
 
 #aboutSection {
   grid-area: aboutSection;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column nowrap;
+  margin-top: -8em;
+}
+
+#austinSquat {
+  position: relative;
+  width: 100%;
+  height: 88vh;
+  margin-top: -0.5em;
+  margin-bottom: 6em;
+  grid-area: heroImage;
+}
+
+#heroImage h1 {
+  font-weight: 600;
+  font-size: 3.5rem;
+}
+
+#heroImage h2 {
+  font-weight: 500;
+}
+
+#heroImage h3 {
+  font-weight: 300;
+}
+
+#heroImageText button {
+  border: 1.6px solid white;
+  padding: 0.5em;
+  color: white;
+  background-color: black;
+  text-transform: uppercase;
+}
+
+#heroImageText {
+  text-align: right;
+  color: white;
+  position: absolute;
+  z-index: 2;
+  margin-left: 43em;
+  margin-top: 8em;
+  text-transform: uppercase;
 }
 
 #aboutSection img {
-  height: 35%;
-  float: left;
-  margin-left: 10em;
-  margin-top: 5em;
+  height: 20%;
   border-radius: 5px;
 }
 
@@ -99,7 +147,6 @@ h1 {
 }
 
 #nscaLogo {
-  margin-top: -5em;
   margin-left: -5em;
 }
 
@@ -113,11 +160,11 @@ br {
 
 #aboutSection1 {
   background-color: white;
-  margin-top: 6.5em;
+  margin-top: 3em;
   padding: 1em;
   width: 45em;
-  float: right;
-  margin-right: 3em;
+  margin-bottom: 30em;
+
   border-radius: 5px;
 }
 
@@ -505,6 +552,44 @@ br {
     overflow-x: hidden;
   }
 
+  #austinSquat {
+    height: 50vh;
+  }
+
+  #heroImage h1 {
+    font-weight: 600;
+    font-size: 2rem;
+  }
+
+  #heroImage h2 {
+    font-weight: 500;
+    font-size: 1.2rem;
+  }
+
+  #heroImage h3 {
+    font-weight: 300;
+    font-size: 1rem;
+  }
+
+  #heroImageText button {
+    border: 1.6px solid white;
+    padding: 0.5em;
+    color: white;
+    font-size: 0.7rem;
+    background-color: black;
+    text-transform: uppercase;
+  }
+
+  #heroImageText {
+    text-align: right;
+    color: white;
+    position: absolute;
+    z-index: 2;
+    margin-left: 35%;
+    margin-top: 10%;
+    text-transform: uppercase;
+  }
+
   #product1 {
     margin-top: 0em;
   }
@@ -523,6 +608,7 @@ br {
   #aboutSection {
     margin-right: 0;
     margin-left: 0;
+    margin-bottom: 0;
   }
 
   #nscaLogo {
@@ -533,6 +619,7 @@ br {
   #nscaLogo img {
     height: 3em;
     margin-left: 1em;
+    padding-bottom: 5em;
   }
 
   #aboutSection img {
@@ -549,6 +636,7 @@ br {
     justify-content: center;
     align-items: center;
     flex-flow: column nowrap;
+    margin-top: -25em;
   }
 
   #workout2 {
@@ -684,6 +772,7 @@ br {
 
   #mobileNav {
     display: block;
+    z-index: 100;
   }
 
   #mobileNav img {
@@ -691,7 +780,7 @@ br {
     position: relative;
     margin-right: 10em;
     font-size: 1.5rem;
-
+    padding-bottom: 0.3em;
     height: 6em;
     margin-top: 1.5em;
   }
