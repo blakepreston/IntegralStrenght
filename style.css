@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(201, 201, 201);
+  background-color: rgb(243, 243, 243);
   overflow-x: hidden;
   /* font-family: aktiv-grotesk, sans-serif; */
   font-family: Futura, sans-serif;
@@ -135,6 +135,10 @@ h1 {
   text-transform: uppercase;
 }
 
+#heroImage {
+  width: 100%;
+}
+
 #aboutSection img {
   height: 20%;
   border-radius: 5px;
@@ -177,11 +181,11 @@ br {
   position: relative;
 }
 
-#workout1 img {
+#workout1 video {
   float: right;
-  height: 40vh;
+  height: 45vh;
   margin-top: 2em;
-  margin-right: 5em;
+  margin-right: 15%;
   border-radius: 5px;
 }
 
@@ -396,7 +400,7 @@ br {
   text-align: center;
   width: 35em;
   float: left;
-  margin-left: 10em;
+  margin-left: 15%;
   margin-top: 4em;
   border-radius: 5px;
 }
@@ -405,10 +409,10 @@ br {
   position: relative;
 }
 
-#workout5 img {
+#workout5 video {
   float: right;
-  height: 40vh;
-  margin-right: 9em;
+  height: 45vh;
+  margin-right: 15%;
   border-radius: 5px;
 }
 
@@ -557,6 +561,15 @@ br {
     overflow-x: hidden;
   }
 
+  @viewport {
+    zoom: 1;
+    width: extend-to-zoom;
+  }
+
+  #heroImage {
+    width: 100%;
+  }
+
   #austinSquat {
     height: auto;
   }
@@ -679,7 +692,7 @@ br {
     flex-flow: column nowrap;
   }
 
-  #workout1 img {
+  #workout1 video {
     margin-left: 0;
     margin-right: 0;
   }
@@ -714,7 +727,7 @@ br {
     margin-left: 0;
   }
 
-  #workout5 img {
+  #workout5 video {
     margin-left: 0;
     margin-right: 0;
   }
