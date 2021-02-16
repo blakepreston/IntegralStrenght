@@ -181,7 +181,7 @@ br {
   position: relative;
 }
 
-#workout1 img {
+#workout1 video {
   float: right;
   height: 45vh;
   margin-top: 2em;
@@ -692,7 +692,7 @@ br {
     flex-flow: column nowrap;
   }
 
-  #workout1 img {
+  #workout1 video {
     margin-left: 0;
     margin-right: 0;
   }
