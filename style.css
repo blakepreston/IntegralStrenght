@@ -571,12 +571,13 @@ br {
   }
 
   #austinSquat {
-    height: auto;
+    height: 100%;
+    overflow: hidden;
   }
 
   #heroImage h1 {
     font-weight: 600;
-    font-size: 2rem;
+    font-size: 2.8rem;
   }
 
   #heroImage h2 {
@@ -586,14 +587,14 @@ br {
 
   #heroImage h3 {
     font-weight: 300;
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
 
   #heroImageText button {
     border: 1.6px solid white;
     padding: 0.5em;
     color: white;
-    font-size: 0.7rem;
+    font-size: 1rem;
     background-color: black;
     text-transform: uppercase;
   }
@@ -603,8 +604,9 @@ br {
     color: white;
     position: absolute;
     z-index: 2;
-    margin-left: 35%;
-    margin-top: 10%;
+    width: 120%;
+    margin-left: 70%;
+    margin-top: 15%;
     text-transform: uppercase;
   }
 
@@ -621,12 +623,22 @@ br {
     justify-content: center;
     align-items: center;
     flex-flow: column nowrap;
+    text-align: center;
   }
 
   #aboutSection {
     margin-right: 0;
     margin-left: 0;
     margin-bottom: 0;
+    margin-top: 1px;
+  }
+
+  #aboutSection h1 {
+    font-size: 2.8rem;
+  }
+
+  #aboutSection p {
+    font-size: 1.8rem;
   }
 
   #nscaLogo {
@@ -635,7 +647,7 @@ br {
   }
 
   #nscaLogo img {
-    height: 3em;
+    height: 6em;
     margin-left: 1em;
     padding-bottom: 5em;
   }
@@ -692,9 +704,14 @@ br {
     flex-flow: column nowrap;
   }
 
+  #workout1 h1 {
+    font-size: 2.5em;
+  }
+
   #workout1 video {
     margin-left: 0;
     margin-right: 0;
+    height: 75vh;
   }
 
   #workout2 img {
@@ -730,6 +747,7 @@ br {
   #workout5 video {
     margin-left: 0;
     margin-right: 0;
+    height: 75vh;
   }
 
   #product5 p {
@@ -791,6 +809,7 @@ br {
   #mobileNav {
     display: block;
     z-index: 100;
+    background-color: black;
   }
 
   #mobileNav img {
@@ -801,6 +820,7 @@ br {
     padding-bottom: 0.3em;
     height: 6em;
     margin-top: 1.5em;
+    background-color: white;
   }
 }
 
@@ -845,7 +865,7 @@ br {
 .menu-btn {
   position: fixed;
   display: flex;
-  right: 30px;
+  right: 35px;
 
   z-index: 3;
   justify-content: center;
@@ -860,7 +880,7 @@ br {
   padding-right: 30px;
 
   height: 6px;
-  background: black;
+  background: rgb(255, 255, 255);
   /* border-radius: 5px; */
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0);
   transition: all 0.5s ease-in-out;
@@ -872,7 +892,7 @@ br {
   position: absolute;
   width: 50px;
   height: 6px;
-  background: black;
+  background: rgb(255, 255, 255);
   /* border-radius: 5px; */
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0);
   transition: all 0.5s ease-in-out;
@@ -905,7 +925,7 @@ br {
 .menu_icon {
   width: 30px;
   position: fixed;
-  right: 20px;
+  right: 15em;
   top: 30px;
   z-index: 2;
   cursor: pointer;
