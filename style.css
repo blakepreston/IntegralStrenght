@@ -572,8 +572,8 @@ br {
   }
 
   #austinSquat {
-    height: 100%;
-    overflow: hidden;
+    width: 150%;
+    height: auto;
   }
 
   #heroImage h1 {
@@ -607,7 +607,7 @@ br {
     z-index: 2;
     width: 120%;
     margin-right: 10%;
-    margin-top: 15%;
+    margin-bottom: 0;
     text-transform: uppercase;
   }
 
@@ -631,7 +631,6 @@ br {
     margin-right: 0;
     margin-left: 0;
     margin-bottom: 0;
-    margin-top: 1px;
   }
 
   #aboutSection h1 {
