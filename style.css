@@ -556,9 +556,9 @@ br {
 }
 
 /********** Mobile SetUp **************/
-@media (max-width: 600px) {
+@media (max-width: 400px) {
   body {
-    zoom: 0.41;
+    zoom: 0.35;
   }
 }
 
