@@ -5,6 +5,7 @@ body {
   font-family: Futura, sans-serif;
   font-style: normal;
   max-width: 2000px;
+  margin: 0;
 }
 
 html {
@@ -601,11 +602,11 @@ br {
 
   #heroImageText {
     text-align: right;
-    color: white;
+    color: rgb(255, 255, 255);
     position: absolute;
     z-index: 2;
     width: 120%;
-    margin-left: 70%;
+    margin-right: 10%;
     margin-top: 15%;
     text-transform: uppercase;
   }
