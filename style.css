@@ -39,7 +39,7 @@ h1 {
     "product6"
     "contact";
 
-  justify-content: center;
+  /* justify-content: center; */
 
   /* max-width: 2000px; */
 }
@@ -555,7 +555,6 @@ br {
 }
 
 /********** Mobile SetUp **************/
-/* @media (max-width: ) */
 
 @media (max-width: 1400px) {
   body {
@@ -816,7 +815,8 @@ br {
   #mobileNav img {
     display: block;
     position: relative;
-    margin-right: 10em;
+    margin-right: 0;
+    left: 5em;
     font-size: 1.5rem;
     padding-bottom: 0.3em;
     height: 6em;
