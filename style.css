@@ -138,6 +138,7 @@ h1 {
 
 #heroImage {
   width: 100%;
+  position: relative;
 }
 
 #aboutSection img {
@@ -184,7 +185,7 @@ br {
 
 #workout1 video {
   float: right;
-  height: 45vh;
+  height: 22em;
   margin-top: 2em;
   margin-right: 15%;
   border-radius: 5px;
@@ -247,7 +248,7 @@ br {
 
 #workout2 img {
   float: left;
-  height: 40vh;
+  height: 20em;
   margin-left: 10em;
   border-radius: 5px;
 }
@@ -298,7 +299,7 @@ br {
 
 #workout3 img {
   float: right;
-  height: 40vh;
+  height: 20em;
   margin-right: 8em;
   border-radius: 5px;
 }
@@ -361,7 +362,7 @@ br {
 
 #workout4 img {
   float: left;
-  height: 40vh;
+  height: 20em;
   margin-left: 10em;
   border-radius: 5px;
 }
@@ -412,7 +413,7 @@ br {
 
 #workout5 video {
   float: right;
-  height: 45vh;
+  height: 22em;
   margin-right: 15%;
   border-radius: 5px;
 }
@@ -451,7 +452,7 @@ br {
 
 #workout6 img {
   float: left;
-  height: 40vh;
+  height: 20em;
   margin-left: 10em;
   border-radius: 5px;
 }
@@ -551,21 +552,15 @@ br {
 
 /********** Mobile SetUp **************/
 
-@media (max-width: 480px) {
-  #heroImageText {
-    width: 100%;
-  }
-}
-
 @media (max-width: 1400px) {
   body {
     overflow-x: hidden;
   }
 
-  @viewport {
+  /* @viewport {
     zoom: 1;
     width: extend-to-zoom;
-  }
+  } */
 
   #heroImage {
     width: 100%;
@@ -605,10 +600,12 @@ br {
     color: rgb(255, 255, 255);
     position: absolute;
     z-index: 2;
-    width: 120%;
-    margin-right: 10%;
+    left: 25%;
+    margin-left: 0;
     margin-bottom: 0;
     margin-top: 0;
+    margin-right: 0;
+
     text-transform: uppercase;
   }
 
@@ -712,7 +709,6 @@ br {
   #workout1 video {
     margin-left: 0;
     margin-right: 0;
-    height: 75vh;
   }
 
   #workout2 img {
@@ -748,7 +744,6 @@ br {
   #workout5 video {
     margin-left: 0;
     margin-right: 0;
-    height: 75vh;
   }
 
   #product5 p {
@@ -834,7 +829,7 @@ br {
   right: -200px;
   top: 0px;
   background: #3d3d3d;
-  z-index: 2;
+  z-index: 3;
   padding-top: 100px;
 
   transition: 0.5s;
