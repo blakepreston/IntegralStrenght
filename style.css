@@ -251,9 +251,9 @@ br {
   position: relative;
 }
 
-#workout2 img {
+#workout2 video {
   float: left;
-  height: 20em;
+  height: 22em;
   margin-left: 10em;
   border-radius: 5px;
 }
@@ -665,6 +665,8 @@ br {
   #product1 p {
     margin-right: 0;
     margin-left: 0;
+    font-size: 25px;
+    width: 25em;
   }
 
   #workout1 {
@@ -719,7 +721,7 @@ br {
     margin-right: 0;
   }
 
-  #workout2 img {
+  #workout2 video {
     margin-left: 0;
     margin-right: 0;
   }
@@ -727,6 +729,8 @@ br {
   #product2 p {
     margin-right: 0;
     margin-left: 0;
+    font-size: 25px;
+    width: 25em;
   }
 
   #workout3 img {
@@ -737,6 +741,8 @@ br {
   #product3 p {
     margin-right: 0;
     margin-left: 0;
+    font-size: 25px;
+    width: 25em;
   }
 
   #workout4 img {
@@ -747,6 +753,8 @@ br {
   #product4 p {
     margin-right: 0;
     margin-left: 0;
+    font-size: 25px;
+    width: 25em;
   }
 
   #workout5 video {
@@ -757,6 +765,8 @@ br {
   #product5 p {
     margin-right: 0;
     margin-left: 0;
+    font-size: 25px;
+    width: 25em;
   }
 
   #workout6 img {
@@ -767,6 +777,8 @@ br {
   #product6 p {
     margin-right: 0;
     margin-left: 0;
+    font-size: 25px;
+    width: 25em;
   }
 
   #contact {
