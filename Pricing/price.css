@@ -181,6 +181,24 @@ h1 {
   width: 20em;
 }
 
+@media (max-width: 400px) {
+  #remote,
+  #inPerson,
+  #AthleticDevelopment {
+    width: 15em;
+  }
+
+  #mobileNav img {
+    display: block;
+    position: relative;
+    padding-bottom: 0.3em;
+
+    margin-left: -70px;
+    margin-right: 0;
+    background-color: white;
+  }
+}
+
 @media (max-width: 1400px) {
   #contact {
     display: flex;
