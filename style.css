@@ -128,6 +128,7 @@ h1 {
   font-size: 1rem;
   background-color: black;
   text-transform: uppercase;
+  cursor: pointer;
 }
 
 #heroImageText {
@@ -226,6 +227,7 @@ br {
   text-decoration: none;
   font-size: 16px;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 /************** Product 2 *******************/
@@ -277,6 +279,7 @@ br {
   display: inline-block;
   font-size: 16px;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 /************** Product 3 *******************/
@@ -329,6 +332,7 @@ br {
   display: inline-block;
   font-size: 16px;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 /************** Product 4 *******************/
@@ -347,6 +351,7 @@ br {
   display: inline-block;
   font-size: 16px;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 #product4 p {
@@ -398,6 +403,7 @@ br {
   display: inline-block;
   font-size: 16px;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 #product5 p {
@@ -482,6 +488,7 @@ br {
   display: inline-block;
   font-size: 16px;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 /************** Contact *******************/
@@ -668,6 +675,30 @@ br {
 
   #product1 {
     margin-top: 0em;
+  }
+
+  #product1 button {
+    font-size: 25px;
+  }
+
+  #product2 button {
+    font-size: 25px;
+  }
+
+  #product3 button {
+    font-size: 25px;
+  }
+
+  #product4 button {
+    font-size: 25px;
+  }
+
+  #product5 button {
+    font-size: 25px;
+  }
+
+  #product6 button {
+    font-size: 25px;
   }
 
   #Navigation {
