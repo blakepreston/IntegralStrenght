@@ -4,7 +4,7 @@ body {
   /* font-family: aktiv-grotesk, sans-serif; */
   font-family: Futura, sans-serif;
   font-style: normal;
-  max-width: 2000px;
+
   margin: 0;
 }
 
@@ -38,8 +38,6 @@ h1 {
     "product5"
     "product6"
     "contact";
-
-  /* justify-content: center; */
 
   /* max-width: 2000px; */
 }
@@ -111,11 +109,12 @@ h1 {
 
 #heroImage h1 {
   font-weight: 600;
-  font-size: 3.5rem;
+  font-size: 4.5rem;
 }
 
 #heroImage h2 {
   font-weight: 500;
+  font-size: 2.5rem;
 }
 
 #heroImage h3 {
@@ -126,6 +125,7 @@ h1 {
   border: 1.6px solid white;
   padding: 0.5em;
   color: white;
+  font-size: 1rem;
   background-color: black;
   text-transform: uppercase;
 }
@@ -135,7 +135,7 @@ h1 {
   color: white;
   position: absolute;
   z-index: 2;
-  margin-left: 55%;
+  margin-left: 45%;
   margin-top: 10%;
   text-transform: uppercase;
 }
@@ -191,8 +191,7 @@ br {
   float: right;
   height: 22em;
   margin-top: 2em;
-  margin-right: 15%;
-
+  margin-right: 15rem;
   border-radius: 5px;
 }
 
@@ -212,7 +211,7 @@ br {
   text-align: center;
   width: 40em;
   float: left;
-  margin-left: 10%;
+  margin-left: 10rem;
   margin-top: 4em;
   padding-bottom: 2em;
   border-radius: 5px;
@@ -561,6 +560,56 @@ br {
     zoom: 0.55;
   }
 }
+
+/* @media (max-width: 1920px) {
+  #product1 p {
+    margin-left: 20em;
+  }
+
+  #workout1 video {
+    margin-right: 25em;
+  }
+
+  #product2 p {
+    margin-right: 20em;
+  }
+
+  #workout2 video {
+    margin-left: 25em;
+  }
+
+  #product3 p {
+    margin-left: 20em;
+  }
+
+  #workout3 img {
+    margin-right: 20em;
+  }
+
+  #product4 p {
+    margin-right: 20em;
+  }
+
+  #workout4 img {
+    margin-left: 25em;
+  }
+
+  #product5 p {
+    margin-left: 22em;
+  }
+
+  #workout5 video {
+    margin-right: 25em;
+  }
+
+  #product6 p {
+    margin-right: 20em;
+  }
+
+  #workout6 img {
+    margin-left: 25em;
+  }
+} */
 
 @media (max-width: 1400px) {
   body {
