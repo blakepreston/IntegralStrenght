@@ -13,13 +13,13 @@ let side_nav = document.getElementById("side_nav");
 const menuBtn = document.querySelector(".menu-btn");
 let menuOpen = false;
 
-side_nav.style.right = "-200px";
+side_nav.style.right = "-360px";
 
 menu_icon.onclick = function () {
-  if (side_nav.style.right == "-200px") {
+  if (side_nav.style.right == "-360px") {
     side_nav.style.right = "0";
   } else {
-    side_nav.style.right = "-200px";
+    side_nav.style.right = "-360px";
   }
 };
 

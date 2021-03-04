@@ -593,7 +593,7 @@ br {
 
   #heroImage h1 {
     font-weight: 600;
-    font-size: 2.8rem;
+    font-size: 4em;
   }
 
   #heroImage h2 {
@@ -610,7 +610,7 @@ br {
     border: 1.6px solid white;
     padding: 0.5em;
     color: white;
-    font-size: 1rem;
+    font-size: 1.2rem;
     background-color: black;
     text-transform: uppercase;
   }
@@ -634,27 +634,27 @@ br {
   }
 
   #product1 button {
-    font-size: 25px;
+    font-size: 1em;
   }
 
   #product2 button {
-    font-size: 25px;
+    font-size: 1em;
   }
 
   #product3 button {
-    font-size: 25px;
+    font-size: 1em;
   }
 
   #product4 button {
-    font-size: 25px;
+    font-size: 1em;
   }
 
   #product5 button {
-    font-size: 25px;
+    font-size: 1em;
   }
 
   #product6 button {
-    font-size: 25px;
+    font-size: 1em;
   }
 
   #Navigation {
@@ -676,11 +676,11 @@ br {
   }
 
   #aboutSection h1 {
-    font-size: 2.8rem;
+    font-size: 4em;
   }
 
   #aboutSection p {
-    font-size: 1.8rem;
+    font-size: 2.2em;
   }
 
   #nscaLogo {
@@ -715,7 +715,49 @@ br {
   #product1 p {
     margin-right: 0;
     margin-left: 0;
-    font-size: 25px;
+    font-size: 2.2em;
+  }
+
+  #product2 p {
+    margin-right: 0;
+    margin-left: 0;
+    font-size: 2.2em;
+  }
+
+  #product5 p {
+    margin-right: 0;
+    margin-left: 0;
+    font-size: 2.2em;
+  }
+
+  #product2 h1 {
+    font-size: 4em;
+    font-weight: 850;
+  }
+
+  #product1 h1 {
+    font-size: 4em;
+    font-weight: 850;
+  }
+
+  #product5 h1 {
+    font-size: 4em;
+    font-weight: 850;
+  }
+
+  #product3 h1,
+  #product4 h1,
+  #product6 h1 {
+    font-size: 4em;
+    font-weight: 850;
+  }
+
+  #product3 p,
+  #product4 p,
+  #product6 p {
+    margin-right: 0;
+    margin-left: 0;
+    font-size: 2.2em;
   }
 
   #workout1 {
@@ -778,7 +820,6 @@ br {
   #product2 p {
     margin-right: 0;
     margin-left: 0;
-    font-size: 25px;
     width: 25em;
   }
 
@@ -790,7 +831,6 @@ br {
   #product3 p {
     margin-right: 0;
     margin-left: 0;
-    font-size: 25px;
     width: 25em;
   }
 
@@ -802,7 +842,6 @@ br {
   #product4 p {
     margin-right: 0;
     margin-left: 0;
-    font-size: 25px;
     width: 25em;
   }
 
@@ -814,7 +853,6 @@ br {
   #product5 p {
     margin-right: 0;
     margin-left: 0;
-    font-size: 25px;
     width: 25em;
   }
 
@@ -826,7 +864,6 @@ br {
   #product6 p {
     margin-right: 0;
     margin-left: 0;
-    font-size: 25px;
     width: 25em;
   }
 
@@ -893,10 +930,10 @@ br {
 /*************** Mobile Nav ******************/
 
 .side_nav {
-  width: 200px;
-  height: 200vh;
+  width: 350px;
+  height: 300vh;
   position: fixed;
-  right: -200px;
+  right: -360px;
   top: 0px;
   background: #3d3d3d;
   z-index: 3;
@@ -907,6 +944,7 @@ br {
 
 .side_nav ul li {
   text-transform: uppercase;
+  font-size: 2.2em;
   color: black;
   list-style: none;
   opacity: 100%;
