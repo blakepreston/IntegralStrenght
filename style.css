@@ -266,7 +266,7 @@ br {
 #product1Wrapper {
   width: 28em;
   margin-left: 18em;
-  margin-top: 5em;
+  margin-bottom: 5em;
 }
 
 #product1Wrapper h1 {
@@ -289,6 +289,12 @@ br {
   font-size: 16px;
   cursor: pointer;
   text-align: left;
+}
+
+#buttonPrice:hover {
+  background-color: #d8384d;
+  color: white;
+  transition: 0.3s;
 }
 
 /************** Product 2 *******************/
@@ -337,6 +343,12 @@ br {
   text-align: left;
 }
 
+#buttonPrice2:hover {
+  background-color: #d8384d;
+  color: white;
+  transition: 0.3s;
+}
+
 /************** Product 3 *******************/
 #product3 {
   padding-bottom: 5em;
@@ -377,6 +389,12 @@ br {
   text-align: left;
 }
 
+#buttonPrice3:hover {
+  background-color: #d8384d;
+  color: white;
+  transition: 0.3s;
+}
+
 /************** Product 4 *******************/
 #product4 {
   padding-bottom: 5em;
@@ -397,6 +415,12 @@ br {
   font-size: 16px;
   cursor: pointer;
   text-align: left;
+}
+
+#buttonPrice4:hover {
+  background-color: #d8384d;
+  color: white;
+  transition: 0.3s;
 }
 
 #product4 p {
@@ -446,10 +470,15 @@ br {
   text-align: left;
 }
 
+#buttonPrice5:hover {
+  background-color: #d8384d;
+  color: white;
+  transition: 0.3s;
+}
+
 #product5Wrapper {
   width: 28em;
   margin-left: 18em;
-  margin-top: 5em;
 }
 
 #product5 p {
@@ -509,6 +538,12 @@ br {
   font-size: 16px;
   cursor: pointer;
   text-align: left;
+}
+
+#buttonPrice6:hover {
+  background-color: #d8384d;
+  color: white;
+  transition: 0.3s;
 }
 
 /************** Contact *******************/
@@ -624,12 +659,12 @@ br {
 
   #heroImage h1 {
     font-weight: 600;
-    font-size: 4em;
+    font-size: 4.2em;
   }
 
   #heroImage h2 {
     font-weight: 500;
-    font-size: 2.2em;
+    font-size: 2.5em;
   }
 
   #heroImage h3 {

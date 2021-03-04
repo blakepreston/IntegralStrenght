@@ -1,8 +1,9 @@
 body {
-  background-color: rgb(201, 201, 201);
+  background-color: rgb(12, 12, 12);
   overflow-x: hidden;
   font-family: aktiv-grotesk, sans-serif;
   font-style: normal;
+  margin: 0;
 }
 
 html {
@@ -64,14 +65,16 @@ h1 {
 }
 
 #AthleticDevelopment {
-  background-color: white;
+  background-color: rgb(12, 12, 12);
+  color: white;
   padding: 2em;
   border-radius: 5px;
   width: 36em;
 }
 
 #inPerson {
-  background-color: white;
+  background-color: rgb(12, 12, 12);
+  color: white;
   padding: 2em;
   margin-top: 3em;
   border-radius: 5px;
@@ -79,7 +82,8 @@ h1 {
 }
 
 #remote {
-  background-color: white;
+  background-color: rgb(12, 12, 12);
+  color: white;
   padding: 2em;
   margin-top: 3em;
   border-radius: 5px;
@@ -89,8 +93,10 @@ h1 {
 /************** Contact *******************/
 
 #contact {
+  background-color: #3d3d3d;
   grid-area: contact;
-  padding-top: 10em;
+  margin-top: 5em;
+  padding-top: 5em;
   padding-bottom: 10em;
   text-align: center;
   width: 100%;
