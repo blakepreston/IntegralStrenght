@@ -894,7 +894,7 @@ br {
 
 .side_nav {
   width: 200px;
-  height: 150vh;
+  height: 200vh;
   position: fixed;
   right: -200px;
   top: 0px;
