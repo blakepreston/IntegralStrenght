@@ -598,19 +598,19 @@ br {
 
   #heroImage h2 {
     font-weight: 500;
-    font-size: 1.2rem;
+    font-size: 2.2em;
   }
 
   #heroImage h3 {
     font-weight: 300;
-    font-size: 1.1rem;
+    font-size: 1.4em;
   }
 
   #heroImageText button {
     border: 1.6px solid white;
     padding: 0.5em;
     color: white;
-    font-size: 1.2rem;
+    font-size: 1.4em;
     background-color: black;
     text-transform: uppercase;
   }
@@ -875,6 +875,17 @@ br {
     margin-bottom: 5em;
     margin-left: 10em;
     margin-right: 10em;
+  }
+
+  #email h3,
+  #contact-social h3,
+  #contact-call h3 {
+    font-size: 3em;
+  }
+
+  #email p,
+  #contact-call p {
+    font-size: 2em;
   }
 
   #contact-social {
