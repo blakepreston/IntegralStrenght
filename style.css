@@ -582,9 +582,9 @@ br {
     overflow-x: hidden;
   }
 
-  html {
+  /* html {
     zoom: 50%;
-  }
+  } */
 
   @viewport {
   }
