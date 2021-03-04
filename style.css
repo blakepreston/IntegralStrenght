@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(243, 243, 243);
+  background-color: rgb(12, 12, 12);
   overflow-x: hidden;
   /* font-family: aktiv-grotesk, sans-serif; */
   font-family: Futura, sans-serif;
@@ -40,9 +40,9 @@ h1 {
     "aboutSection"
     "product1"
     "product2"
-    "product3"
-    "product4"
     "product5"
+    "product4"
+    "product3"
     "product6"
     "contact";
 
@@ -270,26 +270,18 @@ br {
   border-radius: 5px;
 }
 
-#workout1 h1 {
-  background-color: white;
-  padding: 1em;
-  text-align: center;
-  width: 15em;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+#product1Wrapper {
+  width: 28em;
+  margin-left: 22em;
+  margin-top: 5em;
 }
 
-#product1 p {
-  background-color: white;
-  padding: 1em;
-  text-align: center;
-  width: 40em;
-  float: left;
-  margin-left: 10rem;
-  margin-top: 4em;
-  padding-bottom: 2em;
-  border-radius: 5px;
+#product1Wrapper h1 {
+  color: white;
+}
+
+#product1Wrapper p {
+  color: white;
 }
 
 #buttonPrice {
@@ -310,16 +302,14 @@ br {
   grid-area: product2;
 }
 
-#product2 p {
-  background-color: white;
-  padding: 1em;
-  text-align: center;
-  width: 40em;
+#product2Wrapper {
+  width: 28em;
   float: right;
-  margin-right: 10em;
-  margin-top: 2em;
-  padding-bottom: 2em;
-  border-radius: 5px;
+  margin-right: 20em;
+}
+
+#product2 p {
+  color: white;
 }
 
 #workout2 {
@@ -333,16 +323,10 @@ br {
   border-radius: 5px;
 }
 
-#workout2 h1 {
-  background-color: white;
-  padding: 1em;
-  text-align: center;
-  width: 15em;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 7em;
+#product2 h1 {
+  color: white;
 }
+
 #buttonPrice2 {
   background-color: #4caf50; /* Green */
   border: none;
@@ -363,37 +347,21 @@ br {
 }
 
 #product3 p {
-  background-color: white;
-  padding: 1em;
+  color: white;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
   width: 35em;
-  float: left;
-  margin-left: 10em;
-  margin-top: 4em;
-  padding-bottom: 2em;
-  border-radius: 5px;
 }
 
-#workout3 {
-  position: relative;
-}
-
-#workout3 img {
-  float: right;
-  height: 20em;
-  margin-right: 8em;
-  border-radius: 5px;
-}
-
-#workout3 h1 {
-  background-color: white;
-  padding: 1em;
+#product3 h1 {
+  color: white;
   text-align: center;
   width: 15em;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 4em;
 }
 
 #buttonPrice3 {
@@ -429,30 +397,24 @@ br {
 }
 
 #product4 p {
-  background-color: white;
-  padding: 1em;
+  color: white;
   text-align: center;
   width: 35em;
-  float: right;
-  margin-right: 8em;
-  margin-top: 4em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   border-radius: 5px;
 }
 
-#workout4 {
-  position: relative;
-}
-
-#workout4 img {
+/* #workout4 img {
   float: left;
   height: 20em;
   margin-left: 10em;
   border-radius: 5px;
-}
+} */
 
-#workout4 h1 {
-  background-color: white;
-  padding: 1em;
+#product4 h1 {
+  color: white;
   text-align: center;
   width: 15em;
   display: block;
@@ -480,15 +442,14 @@ br {
   cursor: pointer;
 }
 
+#product5Wrapper {
+  width: 28em;
+  margin-left: 20em;
+  margin-top: 5em;
+}
+
 #product5 p {
-  background-color: white;
-  padding: 1em;
-  text-align: center;
-  width: 35em;
-  float: left;
-  margin-left: 15%;
-  margin-top: 4em;
-  border-radius: 5px;
+  color: white;
 }
 
 #workout5 {
@@ -502,15 +463,8 @@ br {
   border-radius: 5px;
 }
 
-#workout5 h1 {
-  background-color: white;
-  padding: 1em;
-  text-align: center;
-  width: 15em;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 5em;
+#product5 h1 {
+  color: white;
 }
 
 /************** Product 6 *******************/
@@ -520,36 +474,21 @@ br {
 }
 
 #product6 p {
-  background-color: white;
-  padding: 1em;
+  color: white;
   text-align: center;
   width: 35em;
-  float: right;
-  margin-right: 9em;
-  margin-top: 4em;
-  border-radius: 5px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-#workout6 {
-  position: relative;
-}
-
-#workout6 img {
-  float: left;
-  height: 20em;
-  margin-left: 10em;
-  border-radius: 5px;
-}
-
-#workout6 h1 {
-  background-color: white;
-  padding: 1em;
+#product6 h1 {
+  color: white;
   text-align: center;
   width: 15em;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 5em;
 }
 
 #buttonPrice6 {
@@ -569,6 +508,7 @@ br {
 
 #contact {
   grid-area: contact;
+  background-color: rgb(65, 65, 65);
   padding-top: 10em;
   padding-bottom: 10em;
   text-align: center;
@@ -765,11 +705,26 @@ br {
     margin: 0;
   }
 
+  #product1Wrapper,
+  #product2Wrapper,
+  #product5Wrapper {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+
+  #product1,
+  #product2,
+  #product5 {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
   #product1 p {
     margin-right: 0;
     margin-left: 0;
     font-size: 25px;
-    width: 25em;
   }
 
   #workout1 {
