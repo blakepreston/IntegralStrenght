@@ -675,38 +675,43 @@ br {
 
   #heroImageText h1 {
     font-weight: 600;
-    font-size: 4.2em;
+    font-size: 5.8em;
+    margin-right: 20px;
   }
 
   #heroImage h2 {
     font-weight: 500;
-    font-size: 2.5em;
+    font-size: 3.5em;
+    margin-right: 20px;
   }
 
   #heroImage h3 {
     font-weight: 300;
-    font-size: 1.4em;
+    font-size: 2em;
+    margin-right: 20px;
   }
 
   #heroImageText button {
     border: 1.6px solid white;
     padding: 0.5em;
     color: white;
-    font-size: 1.4em;
+    font-size: 1.8em;
     background-color: black;
     text-transform: uppercase;
+    margin-right: 20px;
   }
 
   #heroImageText {
     text-align: right;
     color: rgb(255, 255, 255);
+    background-color: transparent;
     position: absolute;
     z-index: 2;
-    width: 80%;
-    margin-left: 13em;
+    width: 100%;
+    margin-left: 5em;
     margin-bottom: 0;
     margin-top: 3em;
-    margin-right: 0;
+    /* margin-right: 1em; */
     text-transform: uppercase;
   }
 
@@ -714,7 +719,7 @@ br {
     border-top: 2px solid #d8384d;
     /* padding-top: 65px; */
     /* margin-top: 1em; */
-    font-size: 2.5em;
+    font-size: 2.2em;
   }
 
   #product1 {
