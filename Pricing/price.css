@@ -68,8 +68,12 @@ h1 {
   background-color: rgb(12, 12, 12);
   color: white;
   padding: 2em;
-  border-radius: 5px;
+  border-radius: 0;
   width: 36em;
+  border-top: 2px solid #d8384d;
+  border-left: 2px solid #d8384d;
+  padding-left: 15px;
+  padding-top: 15px;
 }
 
 #inPerson {
@@ -77,8 +81,12 @@ h1 {
   color: white;
   padding: 2em;
   margin-top: 3em;
-  border-radius: 5px;
+  border-radius: 0;
   width: 36em;
+  border-top: 2px solid #d8384d;
+  border-left: 2px solid #d8384d;
+  padding-left: 15px;
+  padding-top: 15px;
 }
 
 #remote {
@@ -86,8 +94,12 @@ h1 {
   color: white;
   padding: 2em;
   margin-top: 3em;
-  border-radius: 5px;
+  border-radius: 0;
   width: 36em;
+  border-top: 2px solid #d8384d;
+  border-left: 2px solid #d8384d;
+  padding-left: 15px;
+  padding-top: 15px;
 }
 
 /************** Contact *******************/
