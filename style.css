@@ -51,7 +51,7 @@ h1 {
 #Navigation {
   grid-area: Navigation;
   text-transform: uppercase;
-  font-weight: 400;
+  font-weight: 600;
   z-index: 6;
   background-color: black;
 }
@@ -270,6 +270,7 @@ br {
   width: 28em;
   margin-left: 18em;
   margin-bottom: 5em;
+  margin-top: 5em;
 }
 
 #product1Wrapper h1 {
