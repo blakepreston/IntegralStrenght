@@ -127,7 +127,7 @@ h1 {
     opacity: 0.15;
   }
   to {
-    transform: translateX(10px);
+    transform: translateX(-70px);
     opacity: 1;
   }
 }
@@ -246,9 +246,18 @@ br {
 }
 
 /******** Products ****************/
+#programHeader {
+  color: white;
+  border-top: 2px solid #d8384d;
+  padding-top: 45px;
+  text-align: center;
+  font-size: 1.5em;
+}
+
 #product1 {
   grid-area: product1;
-  margin-top: -30em;
+  margin-top: 1em;
+  margin-bottom: 5em;
 }
 
 #workout1 {
@@ -303,7 +312,7 @@ br {
 
 /************** Product 2 *******************/
 #product2 {
-  padding-bottom: 5em;
+  margin-bottom: 6em;
   grid-area: product2;
 }
 
@@ -459,7 +468,7 @@ br {
 
 /************** Product 5 *******************/
 #product5 {
-  padding-bottom: 5em;
+  padding-bottom: 1em;
   grid-area: product5;
 }
 
@@ -660,7 +669,7 @@ br {
     height: auto;
   }
 
-  #heroImage h1 {
+  #heroImageText h1 {
     font-weight: 600;
     font-size: 4.2em;
   }
@@ -689,17 +698,23 @@ br {
     color: rgb(255, 255, 255);
     position: absolute;
     z-index: 2;
-    left: 35%;
-    margin-left: 0;
+    width: 80%;
+    margin-left: 13em;
     margin-bottom: 0;
-    margin-top: 0;
+    margin-top: 3em;
     margin-right: 0;
-
     text-transform: uppercase;
   }
 
+  #programHeader {
+    border-top: 2px solid #d8384d;
+    /* padding-top: 65px; */
+    /* margin-top: 1em; */
+    font-size: 2.5em;
+  }
+
   #product1 {
-    margin-top: 0em;
+    margin-top: 25em;
   }
 
   #product1 button {
@@ -879,7 +894,7 @@ br {
   #workout1 img {
     margin-left: 0;
     margin-right: 0;
-    width: 115%;
+    width: 110%;
     height: inherit;
     border-top: 2px solid #d8384d;
     border-left: 2px solid #d8384d;
