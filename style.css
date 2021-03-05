@@ -105,7 +105,8 @@ h1 {
 #austinSquat {
   position: relative;
   width: 100%;
-  margin-top: -0.5em;
+  margin-top: -9em;
+  margin-left: -8em;
   margin-bottom: 6em;
   grid-area: heroImage;
   animation-name: scale-in;
@@ -667,6 +668,9 @@ br {
   #austinSquat {
     width: 100%;
     height: auto;
+    margin-top: 0;
+    margin-right: 0;
+    margin-left: 0;
   }
 
   #heroImageText h1 {
