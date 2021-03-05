@@ -260,7 +260,10 @@ br {
   height: 22em;
   margin-top: 2em;
   margin-right: 15rem;
-  border-radius: 5px;
+  border-top: 2px solid #d8384d;
+  border-right: 2px solid #d8384d;
+  padding-right: 15px;
+  padding-top: 15px;
 }
 
 #product1Wrapper {
@@ -321,8 +324,11 @@ br {
   float: left;
   width: 28em;
   margin-left: 16em;
-  border-radius: 5px;
   margin-top: 1.3em;
+  border-top: 2px solid #d8384d;
+  border-left: 2px solid #d8384d;
+  padding-left: 15px;
+  padding-top: 15px;
 }
 
 #product2 h1 {
@@ -493,7 +499,10 @@ br {
   float: right;
   height: 22em;
   margin-right: 15%;
-  border-radius: 5px;
+  border-top: 2px solid #d8384d;
+  border-right: 2px solid #d8384d;
+  padding-right: 15px;
+  padding-top: 15px;
 }
 
 #product5 h1 {
