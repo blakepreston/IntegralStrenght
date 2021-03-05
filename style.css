@@ -883,6 +883,8 @@ br {
     height: inherit;
     border-top: 2px solid #d8384d;
     border-left: 2px solid #d8384d;
+    border-right: transparent;
+    padding-right: 0px;
     padding-left: 15px;
     padding-top: 15px;
   }
@@ -936,6 +938,8 @@ br {
     border-left: 2px solid #d8384d;
     padding-left: 15px;
     padding-top: 15px;
+    border-right: transparent;
+    padding-right: 0px;
   }
 
   #product5 p {
