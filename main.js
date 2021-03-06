@@ -60,3 +60,4 @@ observor = new IntersectionObserver((entries) => {
 })
 
 observor.observe(heroText);
+
