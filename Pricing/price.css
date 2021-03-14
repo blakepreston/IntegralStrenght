@@ -35,6 +35,8 @@ h1 {
   height: 2.5em;
   margin-top: -0.5em;
   margin-left: 5em;
+  padding: 2px;
+  border-radius: 25%;
 }
 
 #navBar a {
@@ -47,6 +49,7 @@ h1 {
   height: 6em;
   margin-left: 5em;
   margin-top: 1em;
+  background-color: white;
 }
 
 #navBar {
@@ -94,6 +97,7 @@ h1 {
   color: white;
   padding: 2em;
   margin-top: 3em;
+  margin-bottom: 5em;
   border-radius: 0;
   width: 36em;
   border-top: 2px solid #d8384d;
@@ -105,10 +109,9 @@ h1 {
 /************** Contact *******************/
 
 #contact {
-  background-color: #3d3d3d;
   grid-area: contact;
-  margin-top: 5em;
-  padding-top: 5em;
+  background-color: rgb(238, 232, 232);
+  padding-top: 10em;
   padding-bottom: 10em;
   text-align: center;
   width: 100%;
@@ -131,7 +134,7 @@ h1 {
   border-style: solid;
   border-width: 2px;
   padding: 3em;
-  border-radius: 5px;
+  border-color: black;
 }
 
 #shareLogo {
@@ -148,7 +151,7 @@ h1 {
   border-style: solid;
   border-width: 2px;
   padding: 3em;
-  border-radius: 5px;
+  border-color: black;
 }
 
 #contact-call img {
@@ -164,7 +167,7 @@ h1 {
   border-style: solid;
   border-width: 2px;
   padding: 3em;
-  border-radius: 5px;
+  border-color: black;
 }
 
 #email img {

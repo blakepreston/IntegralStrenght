@@ -50,6 +50,7 @@ h1 {
 }
 #Navigation {
   grid-area: Navigation;
+  position: fixed;
   text-transform: uppercase;
   font-weight: 600;
   z-index: 6;
@@ -58,13 +59,15 @@ h1 {
 
 #navBar li {
   display: inline;
-  margin-left: 6rem;
+  margin-left: 6em;
 }
 
 #navBar li img {
   height: 2.5em;
   margin-top: -0.5em;
   margin-left: 5em;
+  padding: 2px;
+  border-radius: 25%;
 }
 
 #navBar a {
@@ -86,9 +89,10 @@ h1 {
 #navBar {
   text-align: center;
   margin-left: 5em;
-  width: 100%;
-  padding-top: 2.5em;
+  width: 300%;
+  padding-top: 2em;
   height: 2.5em;
+  background-color: black;
 }
 
 /********* About Section *************/
@@ -98,12 +102,14 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-flow: column nowrap;
+  flex-flow: row;
 }
 
-#aboutSection img {
-  height: 20%;
-  border-radius: 5px;
+#aboutImage img {
+  width: 30em;
+  margin-top: 5em;
+  margin-bottom: 10em;
+
 }
 
 #nscaLogo img {
@@ -126,16 +132,17 @@ br {
   color: white;
   margin-top: 3em;
   padding: 1em;
-  width: 60%;
-  margin-bottom: 30em;
-  border-radius: 5px;
+  width: 40%;
+  margin-top: 5em;
+  margin-bottom: 10em;
+  margin-left: 1em;
 }
 
 /************** Contact *******************/
 
 #contact {
   grid-area: contact;
-  background-color: rgb(65, 65, 65);
+  background-color: rgb(238, 232, 232);
   padding-top: 10em;
   padding-bottom: 10em;
   text-align: center;
@@ -159,7 +166,6 @@ br {
   border-style: solid;
   border-width: 2px;
   padding: 3em;
-  border-radius: 5px;
 }
 
 #shareLogo {
@@ -176,7 +182,6 @@ br {
   border-style: solid;
   border-width: 2px;
   padding: 3em;
-  border-radius: 5px;
 }
 
 #contact-call img {
@@ -192,7 +197,6 @@ br {
   border-style: solid;
   border-width: 2px;
   padding: 3em;
-  border-radius: 5px;
 }
 
 #email img {
