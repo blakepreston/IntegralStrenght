@@ -37,7 +37,6 @@ h1 {
     "product2"
     "product5"
     "product4"
-    "product3"
     "product6"
     "contact";
 
@@ -221,12 +220,7 @@ br {
     margin-right: auto;
   }
 
-  #product3 {
-    width: 95em;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
+
 
   #product4 {
     width: 95em;
@@ -370,51 +364,7 @@ br {
   transition: 0.3s;
 }
 
-/************** Product 3 *******************/
-#product3 {
-  padding-bottom: 5em;
-  grid-area: product3;
-}
 
-#product3 p {
-  color: white;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  width: 35em;
-}
-
-#product3 h1 {
-  color: white;
-  text-align: center;
-  width: 15em;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-#buttonPrice3 {
-  background-color: transparent;
-  border: 0;
-  border-bottom: 2px solid #d8384d;
-  border-left: 2px solid #d8384d;
-  border-right: 2px solid #d8384d;
-  color: #d8384d;
-  padding: 10px 10px;
-  padding-right: 10em;
-  padding-left: 10em;
-  text-decoration: none;
-  font-size: 16px;
-  cursor: pointer;
-  text-align: left;
-}
-
-#buttonPrice3:hover {
-  background-color: #d8384d;
-  color: white;
-  transition: 0.3s;
-}
 
 /************** Product 4 *******************/
 #product4 {
@@ -738,9 +688,6 @@ br {
     font-size: 1em;
   }
 
-  #product3 button {
-    font-size: 1em;
-  }
 
   #product4 button {
     font-size: 1em;
@@ -842,14 +789,12 @@ br {
     font-weight: 850;
   }
 
-  #product3 h1,
   #product4 h1,
   #product6 h1 {
     font-size: 4em;
     font-weight: 850;
   }
 
-  #product3 p,
   #product4 p,
   #product6 p {
     margin-right: 0;
@@ -939,12 +884,6 @@ br {
     margin-right: 0;
   }
 
-  #product3 p {
-    margin-right: 0;
-    margin-left: 0;
-    width: 25em;
-  }
-
   #workout4 img {
     margin-left: 0;
     margin-right: 0;
@@ -1025,7 +964,6 @@ br {
 
   #product1,
   #product2,
-  #product3,
   #product4,
   #product5,
   #product6 {
