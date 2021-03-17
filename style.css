@@ -10,7 +10,7 @@ body {
 
 html {
   scroll-behavior: smooth;
-  max-width: 2400px;
+  /* max-width: 2400px; */
   display: flex;
   justify-content: center;
 }
