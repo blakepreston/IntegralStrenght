@@ -4,7 +4,8 @@ body {
   /* font-family: aktiv-grotesk, sans-serif; */
   font-family: Futura, sans-serif;
   font-style: normal;
-  margin: 0;
+  margin-left: 0;
+  margin-top: 0;
 }
 
 html {
