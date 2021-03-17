@@ -220,8 +220,6 @@ br {
     margin-right: auto;
   }
 
-
-
   #product4 {
     width: 95em;
     display: block;
@@ -363,8 +361,6 @@ br {
   color: white;
   transition: 0.3s;
 }
-
-
 
 /************** Product 4 *******************/
 #product4 {
@@ -662,11 +658,18 @@ br {
     position: absolute;
     z-index: 2;
     width: 100%;
-    margin-left: 5em;
-    margin-bottom: 0;
-    margin-top: 3em;
-    /* margin-right: 1em; */
     text-transform: uppercase;
+  }
+
+  @keyframes heroImageText {
+    from {
+      transform: translateX(140px);
+      opacity: 0.15;
+    }
+    to {
+      transform: translateX(-30em);
+      opacity: 1;
+    }
   }
 
   #programHeader {
@@ -687,7 +690,6 @@ br {
   #product2 button {
     font-size: 1em;
   }
-
 
   #product4 button {
     font-size: 1em;
