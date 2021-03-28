@@ -46,18 +46,18 @@ menuBtn.addEventListener("click", () => {
 
 /****************************************** */
 
-const heroText = document.querySelector('.heroImageText');
+// const heroText = document.querySelector('.heroImageText');
 
-observor = new IntersectionObserver((entries) => {
-  console.log(entries);
+// observor = new IntersectionObserver((entries) => {
+//   console.log(entries);
 
-  if(entries[0].intersectionRatio > 0) {
-    entries[0].target.style.animation = `heroImageText 1s forwards ease-out`;
+//   if(entries[0].intersectionRatio > 0) {
+//     entries[0].target.style.animation = `heroImageText 1s forwards ease-out`;
 
-  }else{
-    entries[0].target.style.animation = 'none';
-  }
-})
+//   }else{
+//     entries[0].target.style.animation = 'none';
+//   }
+// })
 
-observor.observe(heroText);
+// observor.observe(heroText);
 

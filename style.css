@@ -118,16 +118,16 @@ h1 {
   opacity: 0.65;
 }
 
-@keyframes scale-in {
+/* @keyframes scale-in {
   0% {
     transform: scale(1.1, 1.1);
   }
   100% {
     transform: scale(1, 1);
   }
-}
+} */
 
-@keyframes heroImageText {
+/* @keyframes heroImageText {
   from {
     transform: translateX(100px);
     opacity: 0.15;
@@ -136,7 +136,7 @@ h1 {
     transform: translateX(-70px);
     opacity: 1;
   }
-}
+} */
 
 #heroImage h1 {
   font-weight: 850;
@@ -167,8 +167,8 @@ h1 {
   color: white;
   position: absolute;
   z-index: 2;
-  margin-left: 35%;
-  margin-top: 10%;
+  margin-top: 15%;
+  margin-left: 30%;
   text-transform: uppercase;
 }
 
@@ -645,19 +645,16 @@ br {
   #heroImageText h1 {
     font-weight: 600;
     font-size: 5.8em;
-    margin-right: 20px;
   }
 
   #heroImage h2 {
     font-weight: 500;
     font-size: 3.5em;
-    margin-right: 20px;
   }
 
   #heroImage h3 {
     font-weight: 300;
     font-size: 2em;
-    margin-right: 20px;
   }
 
   #heroImageText button {
@@ -667,7 +664,6 @@ br {
     font-size: 1.8em;
     background-color: transparent;
     text-transform: uppercase;
-    margin-right: 20px;
   }
 
   #heroImageText {
@@ -677,10 +673,12 @@ br {
     position: absolute;
     z-index: 2;
     width: 100%;
+    margin-left: 0;
+    margin-right: 0;
     text-transform: uppercase;
   }
 
-  @keyframes heroImageText {
+  /* @keyframes heroImageText {
     from {
       transform: translateX(140px);
       opacity: 0.15;
@@ -689,7 +687,7 @@ br {
       transform: translateX(-30em);
       opacity: 1;
     }
-  }
+  } */
 
   #programHeader {
     /* border-top: 2px solid #d8384d; */
