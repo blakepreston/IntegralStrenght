@@ -6,6 +6,9 @@ body {
   font-style: normal;
   margin-left: 0;
   margin-top: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
 }
 
 html {
@@ -55,11 +58,18 @@ h1 {
   font-weight: 600;
   z-index: 6;
   background-color: black;
+  width: 100%;
 }
 
 #navBar li {
   display: inline;
   margin-left: 6em;
+}
+
+#navBar li:hover {
+  border-bottom: solid 5px #d8384d;
+  padding-bottom: 10px;
+  transition-duration: 100ms;
 }
 
 #navBar li img {
@@ -89,7 +99,6 @@ h1 {
 #navBar {
   text-align: center;
   margin-left: 5em;
-  width: 150%;
   padding-top: 2em;
   height: 2.5em;
   background-color: black;
@@ -97,24 +106,16 @@ h1 {
 
 /********* About Section *************/
 
-#aboutSection {
-  grid-area: aboutSection;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: column nowrap;
-  margin-top: -8em;
-}
-
 #austinSquat {
   position: relative;
-  width: 100%;
-  margin-top: -9em;
-
-  margin-bottom: 6em;
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  margin-top: 3em;
   grid-area: heroImage;
   animation-name: scale-in;
   animation-duration: 1s;
+  opacity: 0.65;
 }
 
 @keyframes scale-in {
@@ -138,25 +139,25 @@ h1 {
 }
 
 #heroImage h1 {
-  font-weight: 600;
-  font-size: 4.5rem;
+  font-weight: 850;
+  font-size: 6rem;
 }
 
 #heroImage h2 {
-  font-weight: 500;
-  font-size: 2.5rem;
+  font-weight: 600;
+  font-size: 3rem;
 }
 
 #heroImage h3 {
-  font-weight: 300;
+  font-weight: 400;
 }
 
 #heroImageText button {
   border: 1.6px solid white;
   padding: 0.5em;
   color: white;
-  font-size: 1rem;
-  background-color: black;
+  font-size: 1.2rem;
+  background-color: transparent;
   text-transform: uppercase;
   cursor: pointer;
 }
@@ -166,7 +167,7 @@ h1 {
   color: white;
   position: absolute;
   z-index: 2;
-  margin-left: 45%;
+  margin-left: 35%;
   margin-top: 10%;
   text-transform: uppercase;
 }
@@ -246,10 +247,11 @@ br {
 /******** Products ****************/
 #programHeader {
   color: white;
-  border-top: 2px solid #d8384d;
+  display: none;
   padding-top: 45px;
   text-align: center;
-  font-size: 1.5em;
+  font-size: 2em;
+  font-weight: 900;
 }
 
 #product1 {
@@ -264,9 +266,9 @@ br {
 
 #workout1 img {
   float: right;
-  height: 22em;
+  height: 28em;
   margin-top: 2em;
-  margin-right: 15rem;
+  margin-right: 5em;
   border-top: 2px solid #d8384d;
   border-right: 2px solid #d8384d;
   padding-right: 15px;
@@ -275,17 +277,20 @@ br {
 
 #product1Wrapper {
   width: 28em;
-  margin-left: 18em;
+  margin-left: 10em;
   margin-bottom: 5em;
   margin-top: 5em;
 }
 
 #product1Wrapper h1 {
   color: white;
+  font-size: 3rem;
+  font-weight: 900;
 }
 
 #product1Wrapper p {
   color: white;
+  font-size: 1.2rem;
 }
 
 #buttonPrice {
@@ -300,6 +305,7 @@ br {
   font-size: 16px;
   cursor: pointer;
   text-align: left;
+  font-weight: 600;
 }
 
 #buttonPrice:hover {
@@ -317,11 +323,12 @@ br {
 #product2Wrapper {
   width: 28em;
   float: right;
-  margin-right: 18em;
+  margin-right: 10em;
 }
 
 #product2 p {
   color: white;
+  font-size: 1.2rem;
 }
 
 #workout2 {
@@ -330,8 +337,9 @@ br {
 
 #workout2 img {
   float: left;
-  width: 28em;
-  margin-left: 16em;
+  height: 28em;
+  width: 40em;
+  margin-left: 10em;
   margin-top: 1.3em;
   border-top: 2px solid #d8384d;
   border-left: 2px solid #d8384d;
@@ -341,6 +349,8 @@ br {
 
 #product2 h1 {
   color: white;
+  font-size: 3rem;
+  font-weight: 900;
 }
 
 #buttonPrice2 {
@@ -355,6 +365,7 @@ br {
   font-size: 16px;
   cursor: pointer;
   text-align: left;
+  font-weight: 600;
 }
 
 #buttonPrice2:hover {
@@ -383,6 +394,7 @@ br {
   font-size: 16px;
   cursor: pointer;
   text-align: left;
+  font-weight: 600;
 }
 
 #buttonPrice4:hover {
@@ -416,6 +428,8 @@ br {
   margin-left: auto;
   margin-right: auto;
   margin-top: 5em;
+  font-size: 3rem;
+  font-weight: 900;
 }
 
 /************** Product 5 *******************/
@@ -446,11 +460,12 @@ br {
 
 #product5Wrapper {
   width: 28em;
-  margin-left: 18em;
+  margin-left: 10em;
 }
 
 #product5 p {
   color: white;
+  font-size: 1.2rem;
 }
 
 #workout5 {
@@ -460,15 +475,18 @@ br {
 #workout5 img {
   float: right;
   height: 22em;
-  margin-right: 15%;
+  margin-right: 5em;
   border-top: 2px solid #d8384d;
   border-right: 2px solid #d8384d;
   padding-right: 15px;
   padding-top: 15px;
+  height: 28em;
 }
 
 #product5 h1 {
   color: white;
+  font-size: 3rem;
+  font-weight: 900;
 }
 
 /************** Product 6 *******************/
@@ -493,6 +511,8 @@ br {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  font-size: 3rem;
+  font-weight: 900;
 }
 
 #buttonPrice6 {
@@ -617,8 +637,6 @@ br {
   }
 
   #austinSquat {
-    width: 100%;
-    height: auto;
     margin-top: 0;
     margin-right: 0;
     margin-left: 0;
@@ -647,7 +665,7 @@ br {
     padding: 0.5em;
     color: white;
     font-size: 1.8em;
-    background-color: black;
+    background-color: transparent;
     text-transform: uppercase;
     margin-right: 20px;
   }
@@ -674,7 +692,7 @@ br {
   }
 
   #programHeader {
-    border-top: 2px solid #d8384d;
+    /* border-top: 2px solid #d8384d; */
     /* padding-top: 65px; */
     /* margin-top: 1em; */
     font-size: 2.2em;
@@ -1002,7 +1020,7 @@ br {
 /*************** Mobile Nav ******************/
 
 .side_nav {
-  width: 350px;
+  width: 360px;
   height: 300vh;
   position: fixed;
   right: -360px;
