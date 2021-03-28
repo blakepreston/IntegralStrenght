@@ -647,13 +647,13 @@ br {
   }
 
   #heroImageText h1 {
-    font-weight: 600;
-    font-size: 5.8em;
+    font-weight: 850;
+    font-size: 8em;
   }
 
   #heroImage h2 {
-    font-weight: 500;
-    font-size: 3.5em;
+    font-weight: 600;
+    font-size: 3.1rem;
   }
 
   #heroImage h3 {
@@ -665,7 +665,7 @@ br {
     border: 1.6px solid white;
     padding: 0.5em;
     color: white;
-    font-size: 1.8em;
+    font-size: 2em;
     background-color: transparent;
     text-transform: uppercase;
   }
@@ -679,6 +679,7 @@ br {
     width: 100%;
     margin-left: 0;
     margin-right: 0;
+    margin-top: 20em;
     text-transform: uppercase;
   }
 
