@@ -633,13 +633,17 @@ br {
   }
 
   #heroImage {
-    width: 100%;
+    /* width: 100%; */
+    margin-top: 5em;
+    margin-bottom: 45em;
   }
 
   #austinSquat {
     margin-top: 0;
     margin-right: 0;
     margin-left: 0;
+    height: 200%;
+    width: 200%;
   }
 
   #heroImageText h1 {
@@ -999,7 +1003,7 @@ br {
   #mobileNav {
     display: block;
     z-index: 100;
-    background-color: black;
+    margin-bottom: 1em;
   }
 
   #mobileNav img {
@@ -1008,7 +1012,6 @@ br {
     margin-right: 0;
     left: 3em;
     font-size: 1.5rem;
-    padding-bottom: 0.3em;
     height: 6em;
     margin-top: 1.5em;
     background-color: white;
@@ -1023,15 +1026,22 @@ br {
   position: fixed;
   right: -360px;
   top: 0px;
-  background: #3d3d3d;
+  background: #d8384d;
   z-index: 3;
   padding-top: 100px;
   transition: 0.5s;
+  padding-top: 75px;
+}
+
+.side_nav ul {
+  margin-top: 100px;
 }
 
 .side_nav ul li {
   text-transform: uppercase;
-  font-size: 2.2em;
+  font-size: 2.3em;
+  padding-top: 50px;
+  font-weight: 800;
   color: black;
   list-style: none;
   opacity: 100%;
@@ -1042,15 +1052,14 @@ br {
 }
 
 .side_nav ul a {
-  color: #fdf8f5;
+  color: #ffffff;
   text-decoration: none;
   margin-right: 60px;
-  margin-top: 25px;
 }
 
 #menu_icon {
   width: 120px;
-  margin-top: 10px;
+  margin-top: 25px;
 }
 
 .menu-btn {
@@ -1068,9 +1077,9 @@ br {
 }
 
 .menu-btn_hamburger {
-  padding-right: 30px;
-
+  padding-right: 80px;
   height: 6px;
+  margin: 50px;
   background: rgb(255, 255, 255);
   /* border-radius: 5px; */
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0);
@@ -1081,7 +1090,7 @@ br {
 .menu-btn_hamburger::after {
   content: "";
   position: absolute;
-  width: 50px;
+  width: 80px;
   height: 6px;
   background: rgb(255, 255, 255);
   /* border-radius: 5px; */
@@ -1107,10 +1116,12 @@ br {
 
 .menu-btn.open .menu-btn_hamburger::before {
   transform: rotate(45deg) translate(35px, -35px);
+  height: 12px;
 }
 
 .menu-btn.open .menu-btn_hamburger::after {
   transform: rotate(-45deg) translate(35px, 35px);
+  height: 12px;
 }
 
 .menu_icon {
@@ -1128,5 +1139,6 @@ br {
 }
 
 .menu-btn {
-  top: 30px;
+  top: 50px;
+  right: 70px;
 }
